@@ -11,4 +11,4 @@ function NotaDoAluno(alunos){
     } else { console.log(`Aluno ${alunos} não encontrado.`)}
 }
 
-NotaDoAluno("Paula")
+NotaDoAluno("Vitor")
