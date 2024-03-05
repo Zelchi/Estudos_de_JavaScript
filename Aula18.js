@@ -6,3 +6,10 @@ const reprovados = alunos.filter((_, indice) => { // O _ usa o correspondente, n
 });
 
 console.log(reprovados)
+
+
+
+const notas1 = [10, 5, 7, 4, 8, 3];
+
+const aprovados = notas1.filter((nota1) => nota1 >= 7);
+console.log(aprovados);
