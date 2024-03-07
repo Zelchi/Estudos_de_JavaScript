@@ -37,7 +37,15 @@ const livro = {
 
 // console.log(livro.mostrarDetalhes)
 
-console.log(livro["titulo"]);
-console.log(livro["autor"]);
-console.log(livro["anoDePublicacao"]);
-console.log(livro["genero"]);
+// console.log("------------");
+// console.log(livro["titulo"]);
+// console.log(livro["autor"]);
+// console.log(livro["anoDePublicacao"]);
+// console.log(livro["genero"]);
+
+livro.genero = "Aventura";
+livro.data = "10/07"
+livro.certificado = "Aprovado"
+delete livro.autor
+
+console.log(livro)
